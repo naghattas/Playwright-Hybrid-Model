@@ -1,0 +1,5 @@
+/build
+/node_modules
+/playwright-test-results
+/playwright-report
+/.vscode/settings.json

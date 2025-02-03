@@ -1,0 +1,21 @@
+{
+  "name": "playwright-interview",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "check": "npm run format-check && npm run typecheck",
+    "test": "npx playwright test --headed",
+    "format": "prettier --write '.'",
+    "format-check": "prettier --check '.'",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/node": "^22.7.5",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "playwright": "^1.50.1"
+  }
+}
