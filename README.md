@@ -104,6 +104,8 @@ test('Can add and complete a todo', async ({ page }) => {
     expect(isComplete).toBe(true);
 });
 
+
+
 ✅ What just happened here?
 We added a new Todo.
 
@@ -133,8 +135,9 @@ Enhance the Logger utility to capture async errors more effectively.
 
 Introduce configuration handling for better test scalability.
 
-## 📌 References
-- [Playwright Documentation](https://playwright.dev/)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
-- [GitHub Repository](https://github.com/naghattas/Playwright-Hybrid-Model)
+📌 References
+Playwright Documentation
 
+TypeScript Documentation
+
+GitHub Repository
