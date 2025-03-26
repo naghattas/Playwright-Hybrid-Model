@@ -86,9 +86,8 @@ This framework implements **Page Object Model (POM)** and **Component Object Mod
 
 ---
 
-## 📝 Example Usage
-
-Let’s say you want to test adding and completing a todo (because what else would you be doing in life, really?):
+### 📋 Example Usage  
+Let’s say you want to test adding and completing a todo (because what else would you be doing in life, really?):  
 
 ```typescript
 import { test } from '@playwright/test';
@@ -104,9 +103,7 @@ test('Can add and complete a todo', async ({ page }) => {
     expect(isComplete).toBe(true);
 });
 
-
-
-✅ What just happened here?
+## ✅ What just happened here?
 We added a new Todo.
 
 Marked it as complete.
@@ -115,7 +112,7 @@ Checked if it was indeed completed.
 
 All while using nicely encapsulated components. 🎯
 
-🤖 AI-Driven Development Process
+## 🤖 AI-Driven Development Process
 I won’t lie, the AI (hello, ChatGPT! 👋) made this a lot easier. I didn’t have to reinvent the wheel; instead, I just kept improving it.
 
 It wrote boilerplate code.
@@ -126,7 +123,7 @@ It made suggestions that sped up the whole process.
 
 But hey, it’s still a work in progress. AI is cool, but it’s not perfect. Yet.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 Add even more granular tests for components.
 
 Refactor repeated logic into BasePage and BaseComponent for better DRY compliance.
@@ -135,9 +132,8 @@ Enhance the Logger utility to capture async errors more effectively.
 
 Introduce configuration handling for better test scalability.
 
-📌 References
-Playwright Documentation
+## 📌 References  
+- [📖 Playwright Documentation](https://playwright.dev/)  
+- [📖 TypeScript Documentation](https://www.typescriptlang.org/docs/)  
+- [📖 GitHub Repository](https://github.com/naghattas/Playwright-Hybrid-Model)  
 
-TypeScript Documentation
-
-GitHub Repository
