@@ -102,38 +102,30 @@ test('Can add and complete a todo', async ({ page }) => {
 
     expect(isComplete).toBe(true);
 });
-<!-- line break between code block and text below -->
 
-✅ What just happened here?
-We added a new Todo.
+   ```
+---
 
-Marked it as complete.
+### **✅ What just happened here?**
+- We added a new Todo.
+- Marked it as complete.
+- Checked if it was indeed completed.
+- All while using nicely encapsulated components. 🎯
 
-Checked if it was indeed completed.
+### **🤖 AI-Driven Development Process**
+- I won’t lie, the AI (hello, ChatGPT! 👋) made this a lot easier. I didn’t have to reinvent the wheel; instead, I just kept improving it.
+- It wrote boilerplate code.
+- It helped me refactor when my brain was too busy thinking about tacos. 🌮
+- It made suggestions that sped up the whole process.
+- But hey, it’s still a work in progress. AI is cool, but it’s not perfect. Yet.
 
-All while using nicely encapsulated components. 🎯
+### **🔮 Future Improvements**
+- Add even more granular tests for components.
+- Refactor repeated logic into BasePage and BaseComponent for better DRY compliance.
+- Enhance the Logger utility to capture async errors more effectively.
+- Introduce configuration handling for better test scalability.
 
-🤖 AI-Driven Development Process
-I won’t lie, the AI (hello, ChatGPT! 👋) made this a lot easier. I didn’t have to reinvent the wheel; instead, I just kept improving it.
-
-It wrote boilerplate code.
-
-It helped me refactor when my brain was too busy thinking about tacos. 🌮
-
-It made suggestions that sped up the whole process.
-
-But hey, it’s still a work in progress. AI is cool, but it’s not perfect. Yet.
-
-🔮 Future Improvements
-Add even more granular tests for components.
-
-Refactor repeated logic into BasePage and BaseComponent for better DRY compliance.
-
-Enhance the Logger utility to capture async errors more effectively.
-
-Introduce configuration handling for better test scalability.
-
-📌 References  
+### **📌 References**  
 - [📖 Playwright Documentation](https://playwright.dev/)  
 - [📖 TypeScript Documentation](https://www.typescriptlang.org/docs/)  
 - [📖 GitHub Repository](https://github.com/naghattas/Playwright-Hybrid-Model)  
