@@ -1,7 +1,7 @@
 # 📚 Playwright Hybrid Model Testing Framework
 
 ## 🚀 Overview
-Welcome to the **Playwright Hybrid Model Testing Framework**, a creation born out of coffee, sleepless nights, and a sprinkle of AI wizardry. 
+Welcome to the **Playwright Hybrid Model Testing Framework**, a creation born out of coffee, curiosity, and a sprinkle of AI wizardry. 
 
 This framework was built with the goal of mixing the best of both worlds:  
 - **Page Object Model (POM)** for the broader, high-level page structure.  
