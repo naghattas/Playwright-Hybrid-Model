@@ -105,7 +105,7 @@ This framework implements **Page Object Model (POM)** and **Component Object Mod
 ---
 
 ### 📋 Example Usage  
-Let’s say you want to test adding and completing a todo (because what else would you be doing in life, really?):  
+Let’s say you want to test adding and completing a todo:  
 
 ```typescript
 import { test } from '@playwright/test';
