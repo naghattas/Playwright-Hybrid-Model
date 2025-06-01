@@ -7,9 +7,9 @@ This framework was built with the goal of mixing the best of both worlds:
 - **Page Object Model (POM)** for the broader, high-level page structure.  
 - **Component Object Model (COM)** for fine-tuned control over individual UI components.  
 
-In simpler terms, we’re using POM as the skeleton and COM as the muscles. Together, they make the framework strong, flexible, and probably capable of bench-pressing a microservices architecture. 💪  
+In simpler terms, we’re using POM as the skeleton and COM as the muscles. Together, they aim to create a robust, flexible, and highly maintainable test automation solution. 💪
 
-With the help of AI, I managed to whip this framework into shape. It's still evolving, but the AI help definitely sped up the process.  
+AI tools assisted in the initial scaffolding and accelerated the development of this framework. It's still evolving.  
 
 ---
 
