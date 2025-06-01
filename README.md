@@ -49,7 +49,7 @@ Alright, let’s get you rolling:
 ---
 
 ## 📂 Framework Structure
-Welcome to the **organized chaos**. This setup makes sure our tests are modular, reusable, and ultimately more efficient than your average one-size-fits-all framework.
+Welcome to the **hyrbrid framework**. This setup makes sure our tests are modular, reusable, and ultimately more efficient than your average one-size-fits-all framework.
 
 ### **Directory Structure**
 - src/
