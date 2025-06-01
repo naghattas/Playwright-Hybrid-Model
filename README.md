@@ -51,6 +51,21 @@ Alright, let’s get you rolling:
 ## 📂 Framework Structure
 The structure of this hybrid framework is intentionally designed to facilitate modularity, reusability, and enhanced efficiency in test automation suites.
 
+A crucial aspect of understanding this framework is its directory structure. Below is an overview of key files and their roles:
+
+* `src/framework/BaseComponent.ts` - Abstract base class for creating reusable UI components.
+* `src/framework/BasePage.ts` - Abstract base class defining common functionalities for page objects.
+* `src/pages/TodosPage/components/TodoItem.ts` - Component representing an individual todo item within the list, handling its specific interactions (e.g., marking complete, deleting).
+* `src/pages/TodosPage/components/TodoInput.ts` - Component responsible for the new todo input field and submission logic.
+* `src/pages/TodosPage/components/TodosFooter.ts` - Component managing the footer of the Todos application, which may include item counts and filtering options.
+* `src/pages/TodosPage/components/TodosList.ts` - Component that encapsulates the list of todo items and its interactions.
+* `src/pages/TodosPage/TodosPage.ts` - The main Page Object for the Todos application, orchestrating the various components (Input, List, Footer) and defining page-level actions.
+* `src/tests/TestBase.ts` - A base test class providing common setup, teardown, or helper functions for all test suites, promoting cleaner test code.
+* `src/tests/TodoApp.test.ts` - Contains the actual test cases for the Todo application, demonstrating how to use the framework's pages and components to write end-to-end tests.
+* `src/utils/Logger.ts` - Custom utility for generating clear and structured logs during test execution, aiding in debugging and reporting.
+* `env.ts` - Manages environment-specific configurations, such as base URLs, timeouts, or test data paths.
+* `pages.ts` - Exports a factory function (`createPages`) that instantiates and returns page objects (e.g., `TodosPage`), providing convenient access within test files.
+
 ### **Directory Structure**
 - src/
   - framework/
