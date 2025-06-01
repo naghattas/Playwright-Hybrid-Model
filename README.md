@@ -112,12 +112,12 @@ test('Can add and complete a todo', async ({ page }) => {
 - Checked if it was indeed completed.
 - All while using nicely encapsulated components. 🎯
 
-### **🤖 AI-Driven Development Process**
-- I won’t lie, the AI (hello, ChatGPT! 👋) made this a lot easier. I didn’t have to reinvent the wheel; instead, I just kept improving it.
-- It wrote boilerplate code.
-- It helped me refactor when my brain was too busy thinking about tacos. 🌮
-- It made suggestions that sped up the whole process.
-- But hey, it’s still a work in progress. AI is cool, but it’s not perfect. Yet.
+### **🤖 Leveraging AI in Framework Development**
+- AI tools (primarily ChatGPT) played a significant role in accelerating the development of this framework.
+- AI assisted in generating initial boilerplate for components and utility functions.
+- It provided valuable assistance in refactoring code sections and suggesting optimizations.
+- AI-driven suggestions for code structure and logic helped streamline the development timeline.
+- While AI provided significant assistance, this framework also represents substantial custom design and iterative refinement. The integration of AI in the development process is an ongoing exploration.
 
 ### **🔮 Future Improvements**
 - Add even more granular tests for components.
