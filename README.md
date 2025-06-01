@@ -4,7 +4,7 @@ This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md)
 # 📚 Playwright Hybrid Model Testing Framework
 
 ## 🚀 Overview
-Welcome to the **Playwright Hybrid Model Testing Framework**, a creation born out of coffee, curiosity, and a sprinkle of AI. 
+Welcome to the Playwright Hybrid Model Testing Framework! This framework is my original concept for leveraging the strengths of both Page Object Model (POM) and Component Object Model (COM). It was developed with coffee, curiosity, and AI assistance speeding up parts of the implementation.
 
 This framework was built with the goal of mixing the best of both worlds:  
 - **Page Object Model (POM)** for the broader, high-level page structure.  
