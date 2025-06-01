@@ -27,10 +27,16 @@ AI tools assisted in the initial scaffolding and accelerated the development of 
 ## 💾 Installation and Setup
 Alright, let’s get you rolling:  
 
-1. **Install Node.js** (if not already installed):  
-    ```bash
-    npm install -g npm
-    ```
+1. **Prerequisites:**
+
+* **Node.js and npm:** This project requires Node.js (which includes npm).
+    * **To install Node.js:**
+        1.  Visit the [official Node.js website](https://nodejs.org).
+        2.  Download the LTS (Long Term Support) version recommended for most users, or choose another version suitable for your operating system (Windows, macOS, Linux).
+        3.  Run the downloaded installer and follow the on-screen instructions.
+    * **Verify installation:** After installation, open your terminal or command prompt and type `node -v` and `npm -v`. You should see version numbers printed for both.
+    * *(Optional: For advanced users or managing multiple Node versions, consider using a Node Version Manager like [nvm](https://github.com/nvm-sh/nvm)
+      for macOS/Linux or [nvm-windows](https://github.com/coreybutler/nvm-windows) for Windows.)*
 
 2. **Install dependencies:**  
     ```bash
