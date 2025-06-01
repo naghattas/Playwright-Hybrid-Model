@@ -69,27 +69,6 @@ A crucial aspect of understanding this framework is its directory structure. Bel
 * `env.ts` - Manages environment-specific configurations, such as base URLs, timeouts, or test data paths.
 * `pages.ts` - Exports a factory function (`createPages`) that instantiates and returns page objects (e.g., `TodosPage`), providing convenient access within test files.
 
-### **Directory Structure**
-- src/
-  - framework/
-    - BaseComponent.ts
-    - BasePage.ts
-  - pages/
-    - TodosPage/
-      - components/
-        - TodoItem.ts
-        - TodoInput.ts
-        - TodosFooter.ts
-        - TodosList.ts
-    - TodosPage.ts
-  - tests/
-    - TestBase.ts
-    - TodoApp.test.ts
-  - utils/
-    - Logger.ts
-  - env.ts
-  - pages.ts
-
 ---
 
 ## 🧩 POM & COM: The Dynamic Duo
@@ -108,7 +87,7 @@ This framework implements **Page Object Model (POM)** and **Component Object Mod
 ---
 
 ### 📋 Example Usage  
-Let’s say you want to test adding and completing a todo:  
+The following example demonstrates how to test the addition and completion of a todo item using this framework:
 
 ```typescript
 import { test } from '@playwright/test';
