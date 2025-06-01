@@ -7,7 +7,7 @@ This framework was built with the goal of mixing the best of both worlds:
 - **Page Object Model (POM)** for the broader, high-level page structure.  
 - **Component Object Model (COM)** for fine-tuned control over individual UI components.  
 
-In simpler terms, we’re using POM as the skeleton and COM as the muscles. Together, they aim to create a robust, flexible, and highly maintainable test automation solution. 💪
+In simpler terms, we’re using POM as the skeleton and COM as the muscles. Together, they aim to create a robust, flexible, and highly maintainable test automation solution. 
 
 AI tools assisted in the initial scaffolding and accelerated the development of this framework. It's still evolving.  
 
@@ -110,7 +110,7 @@ test('Can add and complete a todo', async ({ page }) => {
 - We added a new Todo.
 - Marked it as complete.
 - Checked if it was indeed completed.
-- All while using nicely encapsulated components. 🎯
+- All while using nicely encapsulated components. 
 
 ### **🤖 Leveraging AI in Framework Development**
 - AI tools (primarily ChatGPT) played a significant role in accelerating the development of this framework.
