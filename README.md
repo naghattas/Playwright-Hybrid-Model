@@ -15,9 +15,9 @@ AI tools assisted in the initial scaffolding and accelerated the development of 
 
 ## 📦 Technologies Used
 - **Playwright** (TypeScript) - The powerhouse for E2E testing.
-- **Node.js** - Because JavaScript’s best frenemy.  
-- **TypeScript** - Keeping us safe from our own type errors.  
-- **Logger Utility** - Built to keep our logs cool, clear, and collected.  
+- **Node.js** - For the runtime environment and package management.  
+- **TypeScript** - For static typing and improved code maintainability.  
+- **Logger Utility** - For structured and readable test execution logs.  
 
 ---
 
