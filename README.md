@@ -38,11 +38,14 @@ Alright, let’s get you rolling:
 3. **Open this repo with your editor.**  
     Clone this repository and open it in your preferred code editor (**[VSCode](https://code.visualstudio.com/)** is recommended). 
 
-4. **Run the tests:**  
+4. * Run tests headless (common for CI/CD):
+    ```bash
+    npx playwright test
+    ```
+   * Run tests in headed mode (useful for local development and debugging):
     ```bash
     npx playwright test --headed
     ```
-
 ---
 
 ## 📂 Framework Structure
