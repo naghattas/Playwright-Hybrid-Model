@@ -82,7 +82,7 @@ This framework implements **Page Object Model (POM)** and **Component Object Mod
 ### **Component Object Model (COM)**
 - Breaks down pages into smaller, testable components.  
 - Example: `TodoInput.ts` manages interactions with the input box, `TodoList.ts` handles the list items, etc.  
-- Basically, POM is the big boss, and COM are the reliable minions doing the actual work. 🦸‍♀️
+- POM orchestrates the high-level page interactions, while COM objects manage the detailed interactions within those specific UI elements. 🦸‍♀️
 
 ---
 
