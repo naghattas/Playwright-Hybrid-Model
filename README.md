@@ -36,7 +36,7 @@ Alright, let’s get you rolling:
     ```
 
 3. **Open this repo with your editor.**  
-    I highly recommend **[VSCode](https://code.visualstudio.com/)** because... well, you know.  
+    Clone this repository and open it in your preferred code editor (**[VSCode](https://code.visualstudio.com/)** is recommended). 
 
 4. **Run the tests:**  
     ```bash
