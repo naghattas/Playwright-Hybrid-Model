@@ -49,7 +49,7 @@ Alright, let’s get you rolling:
 ---
 
 ## 📂 Framework Structure
-Welcome to the **hyrbrid framework**. This setup makes sure our tests are modular, reusable, and ultimately more efficient than your average one-size-fits-all framework.
+The structure of this hybrid framework is intentionally designed to facilitate modularity, reusability, and enhanced efficiency in test automation suites.
 
 ### **Directory Structure**
 - src/
